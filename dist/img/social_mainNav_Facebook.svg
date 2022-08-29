@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="27px" viewBox="0 0 14 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Facebook</title>
+    <g id="Homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="mobile/hamburger-menu" transform="translate(-141.000000, -513.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="Facebook" transform="translate(141.333333, 513.000000)">
+                <path d="M8.63113333,27 L2.8756,27 L2.8756,13.4983125 L-2.1191345e-12,13.4983125 L-2.1191345e-12,8.845875 L2.8756,8.845875 L2.8756,6.0530625 C2.8756,2.257875 4.49886667,8.69304628e-14 9.113,8.69304628e-14 L12.9532,8.69304628e-14 L12.9532,4.654125 L10.5525333,4.654125 C8.75593333,4.654125 8.6372,5.30465625 8.6372,6.51796875 L8.6294,8.84671875 L12.9792,8.84671875 L12.4704667,13.4991563 L8.63026667,13.4991563 L8.63026667,27.0008438 L8.63113333,27.0008438 L8.63113333,27 Z"></path>
+            </g>
+        </g>
+    </g>
+</svg>
