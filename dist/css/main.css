@@ -157,11 +157,11 @@ background: variables.$primary-color;
 */
 @font-face {
   font-family: "HurmeGeometric Black", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  src: url("/dist/fonts/HurmeGeometricSans1-Black-TestFont.otf") format("opentype");
+  src: local("HurmeGeometricSans1-Black-TestFont"), url("/dist/fonts/HurmeGeometricSans1-Black-TestFont.otf") format("opentype");
 }
 @font-face {
   font-family: "HurmeGeometric Regular", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  src: url("/dist/fonts/HurmeGeometricSans1-Regular-TestFont.otf") format("opentype");
+  src: local("HurmeGeometric Regular"), url("/dist/fonts/HurmeGeometricSans1-Regular-TestFont.otf") format("opentype");
 }
 /* 1. Main Layout ================================= */
 * {
@@ -357,6 +357,7 @@ body {
 }
 .header .navigation .menu li a:hover {
   border-bottom: 1px solid #007aff;
+  color: #007aff;
 }
 @media screen and (min-width: 768px) {
   .header .navigation .menu .social-chicklets {
@@ -1386,6 +1387,11 @@ footer .copyright .links a {
   text-transform: uppercase;
   border-radius: 20px;
   text-decoration: none;
+  transition: 500ms ease-in-out;
+}
+.about-truly_LA .LA-truly_copy .jump-container .jump-button:hover {
+  background-color: #007aff;
+  color: white;
 }
 
 h2 {
@@ -1542,7 +1548,7 @@ h2 {
   background-color: #000000;
   padding: 30px;
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 1200px) {
   .events .live-events {
     position: absolute;
     width: 40%;
