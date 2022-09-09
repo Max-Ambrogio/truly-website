@@ -157,7 +157,7 @@ background: variables.$primary-color;
 */
 @font-face {
   font-family: "HurmeGeometric Black", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  src: local("HurmeGeometricSans1-Black-TestFont"), url("/dist/fonts/HurmeGeometricSans1-Black-TestFont.otf") format("opentype");
+  src: local("HurmeGeometricSans1-Light-TestFont"), url("/dist/fonts/HurmeGeometricSans1-Light-TestFont.otf") format("opentype");
 }
 @font-face {
   font-family: "HurmeGeometric Regular", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -168,7 +168,7 @@ background: variables.$primary-color;
   box-sizing: border-box;
 }
 * h1 {
-  font-family: "HurmeGeometric Black", sans-serif;
+  font-family: "HurmeGeometric Black";
   font-style: oblique;
   font-weight: bold;
   text-transform: uppercase;
@@ -416,7 +416,7 @@ body {
   z-index: -1;
   display: block;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .hero .video .desktop {
     display: none;
   }
@@ -671,6 +671,7 @@ body {
   position: relative;
   background-color: #000000;
   overflow: hidden;
+  padding-bottom: 100px;
 }
 @media screen and (min-width: 768px) {
   .gallery .gallery-copy {
@@ -731,11 +732,11 @@ body {
 }
 
 .divider-dark {
-  position: relative;
+  position: absolute;
   height: 260px;
   width: 120%;
-  top: -136px;
-  left: -10px;
+  bottom: 0px;
+  left: 0px;
   background-color: #000000;
   rotate: 10deg;
   z-index: -1;
